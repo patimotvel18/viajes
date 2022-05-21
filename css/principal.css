@@ -1,0 +1,123 @@
+#principal{/*tabla fundamental de la pagina */
+    width: auto;/*ancho de la linea*/
+    height: auto;/*alto de la linea*/
+    overflow: hidden;/*permite regular la visiblidad de los contenidos que sobresalen de una caja html*/
+    margin-top: auto;/*salto de linea*/
+    margin: auto;
+}
+hearder{
+    width: 13000px;
+    height: 100px;
+    border: 1px solid #006699;
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    border: 1px ;
+    float: left;
+}
+.menu{
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+    float: right;
+    margin-top: 40px;
+    background: #006699;
+}
+.menu ul{
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: 'Open sans';
+    color: #fff ;
+}
+.menu ul li a:hover{
+    background: #004161;
+    transition: background 1s color 1s;
+}
+#main{
+    width: 400px;
+    height: auto;
+    border: 1px solid #000;
+    float: center;
+    margin-top: 40px;
+    background: #006699;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.slider{
+    position: none;
+    width: 1200px;
+    height: 300px;
+}
+ul.slider li{
+    margin-top: 120px;
+    float: center;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}   
+ul.slider li img{
+    width: 1120px;
+    height: 470px;
+    object-fit: cover;
+}
+ul.slider li:first-child{
+    opacity: 1;
+}
+ul.slider li:target{
+    opacity: 1;
+}
+.cambios{
+    text-align: center;
+    margin: 20px;
+}
+.cambios li{
+    margin-top: 280px;
+    display: inline-block;
+    color:#fff;
+    text-decoration: #004161;
+    background-color: #ccc;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+#info{
+    margin-top: 60px; /*salto de linea*/
+    width: auto;/*largo*/
+    height: 250;/*ancho*/
+    overflow: hidden;
+    border: 1px solid #fff;
+    background: #fff ;
+}
+#izq{
+    color: #ccc;
+    width: auto;
+    height: 400px;
+    border: 0 px solid #01496d;
+    background:     #002232;
+    margin-top: 140px;
+}
+/* fondo
+        <style>
+            body{
+                background-image: url('im.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>*/

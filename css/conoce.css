@@ -1,0 +1,72 @@
+#conoce{/*tabla fundamental de la pagina */
+    width: 1330px;/*ancho de la linea*/
+    height: auto;/*alto de la linea*/
+    overflow: hidden;/*permite regular la visiblidad de los contenidos que sobresalen de una caja html*/
+    margin-top: auto;/*salto de linea*/
+    margin: auto;
+}
+hearder{
+    width: 13000px;
+    height: 100px;
+    border: 1px solid #006699;
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    border: 1px ;
+    float: left;
+}
+.menu{
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+    float: right;
+    margin-top: 30px;
+    background: #006699;
+}
+.menu ul{
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: 'Open sans';
+    color: #fff ;
+}
+.menu ul li a:hover{
+    background: #004161;
+    transition: background 1s color 1s;
+}
+#empresa{
+    margin-top: 120px; /*salto de linea*/
+    width: 1348px;/*largo*/
+    height: 450px;/*ancho*/
+    overflow: hidden;
+    border: 1px solid #01496d;
+    background: #002232;
+    color: #fff;
+    margin-right: 60px; 
+};
+.trabajadores{
+    margin-top: 300px; /*salto de linea*/
+    width: 1348px;/*largo*/
+    height: 450px;/*ancho*/
+    overflow: hidden;
+    border: 1px solid;
+    color: #000;
+    margin-right: 60px; 
+}
+#usuario{
+    margin-top: 170px; /*salto de linea*/
+    width: 1348px;/*largo*/
+    height: auto;/*ancho*/
+    overflow: hidden;
+    border: 1px solid #01496d;
+    background: #002232;
+    color: #fff;
+    margin-right: 60px; 
+};
